@@ -239,7 +239,7 @@ def decode_order():
                 log(f"Error! Incorrect item '{word}'")
                 correct_fl = False
 
-        if (not correct_fl):
+        if not correct_fl:
             log("Warning! One or more order positions were incorrect!")
 
         msg = 'Текущий заказ: ' + orderlist_to_string(order)
