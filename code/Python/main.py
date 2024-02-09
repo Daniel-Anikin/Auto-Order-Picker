@@ -39,8 +39,7 @@ def uart_print(msg):
 from mqtt_msg_center import (mqtt_connect,
                              subscribe_and_handler,
                              mqtt_publish_log,
-                             mqtt_start,
-                             mqtt_stop)
+                             mqtt_start)
 
 import mqtt_settings
 
